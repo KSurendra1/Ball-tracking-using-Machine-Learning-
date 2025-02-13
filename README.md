@@ -1,8 +1,8 @@
-##Expected Runs Model for Cricket Ball-Tracking Data
-#Overview
+## Expected Runs Model for Cricket Ball-Tracking Data
+# Overview
 This project involves building an expected runs model using ball-tracking data for cricket. The dataset contains over 200,000 balls, each with ball-tracking attributes (e.g., speed, swing angle, bounce position) and outcomes (runs and wickets). The goal is to predict the expected runs for each ball using machine learning techniques.
 
-#The project is structured as an end-to-end Data Science workflow, including:
+# The project is structured as an end-to-end Data Science workflow, including:
 
 Exploratory Data Analysis (EDA)
 
@@ -14,7 +14,7 @@ Model Evaluation
 
 Answering Task Questions
 
-#Dataset
+# Dataset
 The dataset contains the following columns:
 
 Column Name	Description
@@ -60,7 +60,7 @@ Random Forest Regressor
 
 XGBoost Regressor
 
-#Split the data into training and testing sets (80-20 split).
+# Split the data into training and testing sets (80-20 split).
 
 4. Model Evaluation
 Evaluated models using:
@@ -80,7 +80,7 @@ How to Run the Code
 Prerequisites
 Python 3.x
 
-#Google Colab or Jupyter Notebook
+# Google Colab or Jupyter Notebook
 
 Required libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
 
@@ -115,11 +115,11 @@ Run the Code:
 
 Execute each cell step by step.
 
-#Results
+# Results
 Model Performance
 XGBoost performed the best among the three models, with the lowest MAE and highest R² score.
 
-#Key Insights
+# Key Insights
 Deliveries with specific swing angles, bounce positions, and release speeds are harder to score off.
 
 The model's predictions closely match the variance of the target distribution (runs).
@@ -131,7 +131,7 @@ Experiment with hyperparameter tuning and ensemble methods.
 
 Explore deep learning models (e.g., Neural Networks) if computational resources allow.
 
-#Questions and Answers
+# Questions and Answers
 1. Which Machine Learning model have you picked and why?
 I picked XGBoost because it provides the best balance of accuracy and performance, capturing complex relationships in the data.
 
@@ -147,5 +147,5 @@ The model suggests that deliveries with specific swing angles, bounce positions,
 5. Future steps
 Future steps include advanced feature engineering, hyperparameter tuning, and experimenting with ensemble methods or neural networks.
 
-#License
+# License
 This project is proprietary and confidential. The dataset and code are for recruitment purposes only and must not be shared or distributed.
